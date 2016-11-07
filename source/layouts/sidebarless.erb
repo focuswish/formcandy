@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="proxima">
+
+<head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta name="google-site-verification" content="zKEt2YAQB30o_-ZR_Nf8xtpwxXVIMnkreKNsfELE5x4" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="canonical" href="<%= " #{current_page.url} " %>">
+    <html itemscope itemtype="http://schema.org/Type">
+    <title>
+        <%= current_page.data.title %>
+    </title>
+    <meta name="description" content="<%= current_page.data.description %>" />
+    <meta itemprop="name" content="<%= current_page.data.title %>">
+    <meta itemprop="description" content="<%= current_page.data.description %>" name="description" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="<%= config[:url_root] %>">
+    <meta name="twitter:title" content="<%= current_page.data.title %>">
+    <meta name="twitter:description" content="<%= current_page.data.description %>">
+    <meta name="twitter:creator" content="@<%= config[:twitter] %>">
+    <meta property="og:title" content="<%= current_page.data.title %>" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="<%= config[:url_root] %>" />
+    <meta property="og:description" content="<%= current_page.data.description %>" />
+    <meta property="og:site_name" content="<%= config[:brand] %>" />
+    <%= javascript_include_tag :all %>
+        <%= stylesheet_link_tag :site %>
+            <%= google_analytics_tag %>
+                <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+                <script>
+                (function(d) {
+                    var tkTimeout = 3000;
+                    if (window.sessionStorage) {
+                        if (sessionStorage.getItem('useTypekit') === 'false') {
+                            tkTimeout = 0;
+                        }
+                    }
+                    var config = {
+                            kitId: 'fut3kxg',
+                            scriptTimeout: tkTimeout
+                        },
+                        h = d.documentElement,
+                        t = setTimeout(function() {
+                            h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                            if (window.sessionStorage) {
+                                sessionStorage.setItem("useTypekit", "false")
+                            }
+                        }, config.scriptTimeout),
+                        tk = d.createElement("script"),
+                        f = false,
+                        s = d.getElementsByTagName("script")[0],
+                        a;
+                    h.className += " wf-loading";
+                    tk.src = '//use.typekit.net/' + config.kitId + '.js';
+                    tk.async = true;
+                    tk.onload = tk.onreadystatechange = function() {
+                        a = this.readyState;
+                        if (f || a && a != "complete" && a != "loaded") return;
+                        f = true;
+                        clearTimeout(t);
+                        try {
+                            Typekit.load(config)
+                        } catch (e) {}
+                    };
+                    s.parentNode.insertBefore(tk, s)
+                })(document);
+                </script>
+</head>
+
+<body class="<%= page_classes %>">
+    <%= partial 'layouts/partials/navbar' %>
+        <main class="container">
+            <h1 class="title"><%= current_page.data.title %></h1>
+            <div class="row">
+                <div class="col s12">
+                    <%= yield %>
+                </div>
+            </div>
+        </main>
+        <%= partial 'layouts/partials/footer' %>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+---
+pageable: false
+description: Contact us!
+title: Contact Us
+layout: sidebarless
+---
+    <div class="row">
+      <div class="col m8 offset-m2 s12">
+        <form action="https://formspree.io/<%= config[:email] %>" method=
+            "post">
+            <div class="row">
+              <div class="input-field col s6">
+                <label>Name</label> <input class="validate" name="name" type="text">
+              </div>
+              <div class="input-field col s6">
+                <label>Email</label> <input class="validate" name="_replyto" type="email">
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <label>Message</label>
+                <textarea name="message" class="materialize-textarea validate"></textarea>
+              </div>
+            </div>
+            <input class="btn" type="submit" value="Send">
+        </form>
+      </div>
+    </div>

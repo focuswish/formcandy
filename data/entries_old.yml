@@ -1,0 +1,313 @@
+codeless:
+  - products: 
+    class: typeform
+    title: Typeform
+    link: typeform.com
+    ref: /ref?=focuswish
+    categories: codeless, form builder
+    pricing: 
+    description: Build beautiful, engaging, and conversational online forms, surveys, quizzes, landing pages, and much more with Typeform.
+
+  - products: 
+    class: gravityforms
+    title: Gravity Forms
+    link: gravityforms.com
+    ref:
+    categories: codeless, WordPress
+    pricing: 
+    description: Gravity Forms allows you to quickly and easily integrate with a variety of third party services such as PayPal and provides for even deeper integration with WordPress through our collection of optional Add-Ons. Hot stuff!
+
+  - products: 
+    class: ninjaforms
+    title: Ninja Forms
+    link: ninjaforms.com
+    categories: codeless, WordPress
+    pricing: 
+    description: The easiest and most flexible WordPress form builder.
+
+  - products: 
+    class: wufoo
+    title: WuFoo
+    link: wufoo.com
+    categories: codeless, form builder
+    pricing: 
+    description: Building online forms can be hard. Wufoo makes it easy. Our form designer can help you create contact forms, online surveys and invitations so you can collect the data, registrations and payments you need.
+
+  - products: 
+    class: zoho
+    title: Zoho Forms
+    link: zoho.com
+    categories: codeless, CRM
+    pricing: 
+    description: You can use form rules to create tasks and send emails from Zoho when forms are filled out, or used its integrations to add form data to Zoho CRM, Zoho Creator and more.
+
+  - products: 
+    class: planso
+    title: PlanSo Forms
+    link: planso.net
+    categories: 
+    pricing: 
+    description: The easiest and fastest way to create high converting lead capture teasers. Professional Forms easy as 1-2-3, it has never been easier to create professional online forms.
+
+  - products:
+    class: cognito
+    title: Cognito Forms
+    link: cognitoforms.com
+    categories: codeless, form builder
+    pricing:
+    description: Create online surveys, order forms, registration forms and more. For free.
+
+  - products:
+    class: device-magic
+    title: Device Magic
+    link: devicemagic.com
+    categories: codeless, mobile forms
+    pricing:
+    description: Device Magic makes it easy to create and distribute mobile forms to teams and devices. Our online web-based custom form builder makes it easy to create mobile forms that collect exactly the data you need—then connect a smartphone.
+
+  - products: 
+    class: formidable
+    title: Formidable
+    link: formidablepro.com
+    categories: codeless
+    pricing:
+    description: A powerful form builder for Wordpress. Forms made powerful, easy, extendable.
+
+  - products: 
+    class: formassembly
+    title: FormAssembly
+    link: formassembly.com
+    categories: codeless
+    pricing:
+    description: No faster way to build web forms online and start collecting the data that matters to you.
+
+  - products: 
+    class: formdesk
+    title: FormDesk
+    link: formdesk.com
+    categories: codeless
+    pricing:
+    description: Formdesk lets you design your own online forms such as application forms, registration forms, order forms and surveys. You can place these forms on your internet or intranet site, or use them for e-mails or social media.
+
+  - products:
+    class: formbakery
+    title: FormBakery
+    link: formbakery.com
+    categories: codeless
+    pricing:
+    description: Build professional forms easily and export ready to use code in a snap.
+
+  - products: 
+    class: formstack
+    title: FormStack
+    link: formstack.com
+    categories: codeless
+    pricing:
+    description: Powerful, time-saving solutions for every team. Formstack is the only solution you need to manage information across your entire organization. From HR to IT, let's solve problems together.
+
+static: 
+- products:
+  class: formspree
+  title: Formspree
+  link: formspree.io
+  categories: static sites, form endpoints
+  pricing: free
+  description: Functional HTML forms. Just send your form to Formspree's URL and it will forward to your email. No PHP, Javascript or sign up required — perfect for static sites!
+
+- products:
+  class: formkeep
+  title: Formkeep
+  link: formkeep.com
+  categories: static sites, form endpoints
+  pricing: $30/month
+  description: From the creators of Bourbon. Form endpoints for designers and developers. No iframes, JavaScript embeds, or CSS overrides.
+
+- products: 
+  class: formbucket
+  title: Formbucket
+  link: formbucket.com
+  categories:
+  pricing: static sites, form endpoints
+  description: Endpoints are just the beginning. Form handling and automation for web designers and developers.
+
+- products: 
+  class: formsubmit
+  title: Formsubmit
+  link: formsubmit.io
+  categories: static sites, form endpoints
+  pricing: 
+  description: Simple backend for your forms in static sites. Formsubmit sends all your form submissions to your email without having a need for any coding at all. You don't even require a backend. Sign up (optional) to get additional advantages.
+
+- products: 
+  class: getform
+  title: GetForm
+  link: getform.org
+  categories: static sites, form endpoints
+  pricing: 
+  description: Simple effortless form processing. Form endpoints to manage the backend of your online webforms.
+
+frameworks:
+  - products:
+    class: bootstrap
+    title: Bootstrap
+    link: getbootstrap.com
+    categories: frameworks
+    pricing: free
+    description: Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+
+  - products:
+    class: materialdesign
+    title: Material Design Lite
+    link: getmdl.io
+    categories: frameworks
+    pricing: free
+    description: Material Design Lite lets you add a Material Design look and feel to your websites. It doesn’t rely on any JavaScript frameworks and aims to optimize for cross-device use, gracefully degrade in older browsers, and offer an experience that is immediately accessible.
+
+  - products: 
+    class: bourbon
+    title: Bourbon
+    link: bourbon.io
+    categories: frameworks, SASS
+    pricing: free
+    description: A lightweight semantic grid framework for Sass with Bourbon.
+
+  - products: 
+    class: materialize
+    title: Materialize
+    link: materializecss.com
+    categories: frameworks
+    pricing: free
+    description: A modern responsive front-end framework based on Material Design.
+
+  - products: 
+    class: materialkit
+    title: Material Kit
+    categories: frameworks
+    pricing: free, paid
+    link: http://www.creative-tim.com/product/material-kit/
+    description: Material Kit is a Free Bootstrap UI Kit with a fresh, new design inspired by Google's material design.
+
+  - products: 
+    class: kube
+    title: Kube
+    categories: frameworks
+    pricing: free
+    link: imperavi.com/kube/docs/forms/
+    description: Minimalism and efficiency. Kube is simple yet beautiful, helping you focus on your goals, not on your tools.
+
+  - products: 
+    class: wing
+    title: Wing
+    link: usewing.ml
+    categories: frameworks
+    pricing: free
+    description: Wing is made for those smaller side projects, as it isn't as full featured as Bootstrap, Foundation, etc. Wing styles basic elements, comes with a grid, and some fading animations. Still, what more do you need?
+
+  - products: 
+    class: hackcss
+    title: Hack CSS
+    link: hackcss.com
+    categories: frameworks
+    pricing: free
+    description: The CSS framework for hackers. Inspired by markdown.css and zeit.co
+
+  - products: 
+    class: mailchimp
+    title: Mailchimp's Pattern Library
+    link: ux.mailchimp.com/patterns/forms
+    img_link: //logo.clearbit.com/mailchimp.com
+    categories: pattern libraries
+    pricing: free
+    description: The MailChimp Pattern Library reflects their move to a more responsive, nimble, and intuitive app. Mailchimp has worked to distill most of the MailChimp interface into a set of atomic pieces to speed up workflows and solve some internal communication problems.
+  
+  - products: 
+    class: salesforce
+    title: Lightning Design System
+    link: lightningdesignsystem.com
+    img_link: //logo.clearbit.com/lightningdesignsystem.com
+    categories: pattern libraries
+    pricing: free
+    description: Lightning Design System is Salesforce's platform-agnostic CSS framework/pattern library.
+
+validation:
+  - products: 
+    class: formvalidation
+    title: FormValidation.io
+    link: FormValidation.io
+    categories: form validation
+    pricing: $50
+    description: Best jQuery plugin to validate form fields. Designed for Bootstrap 3/4, Foundation 5/6, Pure, Semantic UI, UIKit, and more.
+
+  - products: 
+    class: semanticui
+    title: Semantic UI
+    link: semantic-ui.com
+    categories: form validation
+    pricing: free
+    description: Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML.
+
+  - products: 
+    class: parsley
+    title: Parsley
+    link: parsleyjs.org
+    img_link: http://placehold.it/150x150
+    categories: form validation
+    pricing: free
+    description: Parsley is the ultimate JavaScript form validation library. Easily validate forms from frontend.
+
+articles:
+- products: 
+  class: alistapart
+  title: Flat UI and Forms
+  link: alistapart.com/article/flat-ui-and-forms
+  img_link: //logo.clearbit.com/alistapart.com
+  categories: form UX
+  pricing: free
+  description: This article is about two important four-letter words that start with “F” - “flat” and “form.”
+
+- products: 
+  class: csstricks
+  title: CSS-Tricks
+  link: https://css-tricks.com/form-validation-ux-html-css/
+  img_link: //logo.clearbit.com/css-tricks.com
+  categories: form validation
+  pricing: free
+  description: A great article about form validation using only HTML attributes and CSS subterfuge.
+
+- products: 
+  class: mono
+  title: The 10 Commandments of Good Form Design on the Web
+  link: mono.company/journal/design-practice/the-10-commandments-of-good-form-design-on-the-web/
+  img_link: //logo.clearbit.com/mono.company
+  categories: form UX
+  pricing: free
+  description: These should be written in stone somewhere. By Johan Ronsse.
+
+- products: 
+  class: alistapart
+  title: On Styled Form Elements
+  link: alistapart.com/blog/post/on-styled-form-elements
+  img_link: //logo.clearbit.com/alistapart.com
+  categories: form design
+  pricing: free
+  description: 
+
+contact:
+- products: 
+  class: pepper
+  title: Pepper
+  link: pepper.swat.io
+  categories: contact widget
+  pricing: free
+  description: With PEPPER, your website's visitors won't ever have to CTRL-F again to find that odd "contact" link! PEPPER collects all your contact info in a pretty widget – easy to find, yet unobtrusive!
+
+tools: 
+- products: 
+  class: 
+  title: 
+  link: 
+  description: 
+
+
+
+

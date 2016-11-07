@@ -1,0 +1,60 @@
+<div class="row">
+       <div class="col s12">
+           <div class="card">
+               <div class="card-content white-text">
+                   <span class="card-title">Start here</span>
+                   <p>Get on track for deeper, more restorative sleep.</p>
+               </div>
+
+               <% page_articles.each_with_index do |article, i| %>
+               <div class="card-action">
+                   <%= link_to article.title, article %><span class=
+                   "date"><%= article.date.strftime('%b %e') %></span>
+               </div>
+               <% end %>
+           </div>
+       </div>
+   </div>
+   <div class="row">
+       <div class="col s12">
+           <div class="card">
+               <div class="card-content white-text">
+                   <span class="card-title optin">Want more restful
+                   sleep?</span>
+                   <p class="optin">All the best sleep tips consolidated in
+                   one, weekly newsletter.</p>
+               </div>
+               <!-- aweber_input_value 255217638
+                    aweber_list_value awlist4265920
+                    aweber_input_id redirect_8bd391b19295d68f593b5987289202a8
+                    aweber_redirect_url http://www.vyvansevsadderall.com/thanks/
+                    aweber_field_id awf_field-82862473
+             -->
+               <div class="card-action">
+                   <form accept-charset="UTF-8" action=
+                   "https://www.aweber.com/scripts/addlead.pl" class=
+                   "af-form-wrapper" method="post">
+                       <div style="display: none;">
+                           <input name="meta_web_form_id" type="hidden" value=
+                           "<%= config[:aweber_input_value] %>"> <input name="meta_split_id" type=
+                           "hidden" value=""> <input name="listname" type=
+                           "hidden" value="<%= config[:aweber_list_value] %>"> <input id=
+                           "<%= config[:aweber_input_id] %>" name=
+                           "redirect" type="hidden" value=
+                           "<%= config[:aweber_redirect_url] %>">
+                           <input name="meta_adtracking" type="hidden" value=
+                           "VVA_sidebar_optin"> <input name="meta_message"
+                           type="hidden" value="1"> <input name=
+                           "meta_required" type="hidden" value="email">
+                           <input name="meta_tooltip" type="hidden" value="">
+                       </div>
+                       <input class="text" id="<%= config[:@aweber_field_id] =>" name=
+                       "email" placeholder="Enter your email" tabindex="500"
+                       type="text" value=""> <input align="middle" class=
+                       "btn optin" type="submit" value="Subscribe">
+                   </form>
+                   <p class="white-text optin">We respect your privacy</p>
+               </div>
+           </div>
+       </div>
+   </div>

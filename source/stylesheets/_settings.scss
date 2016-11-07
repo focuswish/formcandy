@@ -1,0 +1,36 @@
+$ms-base: 1em;
+$ms-ratio: $fifth;
+
+$link-color            : $primary-color;
+$success-color         : color("green", "base");
+$error-color           : color("red", "base") !default;
+$font-family-base      : "source-sans-pro", sans-serif !important;
+$white                 : #ffffff;
+$brand-color           : $white;
+$brand-path            : "/images/shroom.png";
+$navbar-font-color     : $white;
+$nav-bg-color          : $primary-color;
+$nav-link-color        : $white;
+$nav-link-color-hover  : $secondary-color;
+$success-color         : darken($secondary-color, 10%);
+$error-color           : red !default;
+$recent-posts-color    : color("amber", "darken-2");
+$date-color            : $primary-color-light;
+$btn-bg-color          : $secondary-color;
+$btn-text-color        : $secondary-color;
+$btn-bg-color-hover          : darken($secondary-color, 5%);
+$btn-text-color-hover        : darken($btn-text-color, 40%);
+
+$card-bg-color         : $primary-color;
+$card-border-color     : $primary-color-light;
+$card-link-color       : $white;
+$card-link-color-light : $white;
+$card-title-color      : $secondary-color;
+$card-action-color     : $secondary-color;
+$excerpt-border        : color("blue-grey", "lighten-4");
+
+
+$placeholder-text-color: $primary-color-light;
+.proxima {
+  font-family: "brandon-grotesque",sans-serif !important;
+}

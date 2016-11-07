@@ -1,0 +1,36 @@
+---
+pageable: false
+description: A curated collection of codeless form builders. 
+title: Codeless
+---
+
+        <h2 class="heading">Codeless</h2>
+            <div class="hero-grid horizontal">
+            
+          
+            <style>
+                <% data.entries.codeless.each do |f| %>
+                    <% if f["img_link"] %>
+                    .clearbit-<%= f["class"] %> { background-image: url(<%= f["img_link"] %>); }
+                    <% else %>
+                    .clearbit-<%= f["class"] %> { background-image: url(//logo.clearbit.com/<%= f["link"] %>); }
+                    <% end %>
+                <% end %>
+            </style>
+
+            <% data.entries.codeless.each do |f| %>
+                <div class="row">
+                    <div class="col m2 s12">
+                        <div class="framework <%= f["class"] %> clearbit-<%= f["class"] %>">
+                        </div>
+                    </div>
+                     <div class="col m10 s12">
+                        <h3>
+                            <a href="http://www.<%= f["link"] %><%= f["ref"] %>"><%= f["title"] %></a>
+                        </h3>
+                        <p><%= f["description"] %></p>
+                        <p><span class="emphasis">Categories:</span> <%= f["categories"] %>. <span class="emphasis">Pricing: </span><%= f["pricing"] %></p>
+                    </div>
+                </div>
+            <% end %>
+        </div>

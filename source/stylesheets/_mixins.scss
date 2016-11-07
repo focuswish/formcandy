@@ -1,0 +1,63 @@
+//mixins
+@import "settings";
+
+@for $i from 1 through 4 {
+  h#{$i} {
+    font-size   : modular-scale(5-$i);
+    font-weight : 700;
+  }
+}
+
+h5 {
+  font-size   : modular-scale(1);
+  font-weight : 700;
+}
+//capitalist icons
+@mixin icons($top, $left, $size, $line-height, $bg-path) {
+  content: " ";
+  display: block;
+  position: relative;
+  top: $top;
+  left: $left;
+  width: $size;
+  height: $size;
+  line-height: $line-height;
+  background: url("#{$bg-path}");
+  background-size: 100% 100%;
+}
+
+
+.framework {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:0;
+  width:100%;
+  padding-bottom: 100% !important;
+}
+
+$hero-icons:
+"materialdesign"
+"bootstrap"
+"bourbon"
+"okcookie"
+"salesforce"
+"hackcss"
+"materialkit"
+"formspree"
+"formsubmit"
+"formkeep"
+"formbucket"
+"formvalidation"
+"gumroad"
+"formlets"
+"typeform"
+"alistapart"
+"wing"
+"kube"
+"ninjaforms";
+
+@each $var in $hero-icons {
+  .#{$var} {
+  background-image: url("/images/#{$var}.png") !important;
+  }
+}

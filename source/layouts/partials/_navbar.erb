@@ -1,0 +1,93 @@
+<nav>
+  <div class="nav-wrapper">
+    <div class="container">
+      <a class="brand-logo"
+         href="<%= config[:url_root] %>">
+         <img src="/images/brand.png" id="brand" />
+      </a>
+      <a class="button-collapse"
+         data-activates="mobile-demo"
+         href="#">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="<%= config[:nav_link_1] %>">
+            <%= config[:nav_1] %>
+          </a>
+        </li>
+        <li>
+          <a href="<%= config[:nav_link_2] %>">
+            <%= config[:nav_2] %>
+          </a>
+        </li>
+        <li>
+          <a href="<%= config[:nav_link_3] %>">
+            <%= config[:nav_3] %>
+          </a>
+        </li>
+      </ul>
+      <ul class="side-nav"
+          id="mobile-demo">
+        <li>
+          <a href="<%= config[:nav_link_1] %>">
+            <%= config[:nav_1] %>
+          </a>
+        </li>
+        <li>
+          <a href="<%= config[:nav_link_2] %>">
+            <%= config[:nav_2] %>
+          </a>
+        </li>
+        <li>
+          <a href="<%= config[:nav_link_3] %>">
+            <%= config[:nav_3] %>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="hero-overlay">
+  <div class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col m12 s12">
+          <h2 class="cta">Tools to Create Beautiful Forms</h2>
+          <h3>Formspiration Weekly</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m6 offset-m3 s12">
+
+      <div id="mc_embed_signup">
+        <form action="<%= config[:mailchimp_url] %>" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+              
+            <div class="col s6">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7b41637e9bf3e67ff515643cb_b999ca9e82" tabindex="-1" value="">
+            </div>
+            <div class="col s6">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-cta">
+            </div>
+          </div>
+        </form>
+      </div>
+
+            <!--End mc_embed_signup-->
+            <script type='text/javascript'>
+            $( document ).ready(function() {
+              $(".button-collapse").sideNav();
+            });
+            </script>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
