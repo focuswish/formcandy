@@ -1,4 +1,7 @@
-
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 h2.heading {
   font-size: modular-scale(2);
   margin-top: 0;
