@@ -241,7 +241,7 @@ validation:
 surveys: 
   - class: survicate
     title: Survicate 
-    link: https://survicate.com
+    link: survicate.com
     img_link: \\logo.clearbit.co/survicate.com
     categories: surveys
     pricing: free and paid ($50/month+)
@@ -250,7 +250,7 @@ surveys:
 articles:
   - class: prototypr
     title: The Future of Web Forms (Prototypr.io)
-    link: https://blog.prototypr.io/the-future-of-web-forms-4578485e1461#.shr1ovis5
+    link: 'blog.prototypr.io/the-future-of-web-forms-4578485e1461#.shr1ovis5'
     img_link: prototypr.io
     categories: form design
     description: How conversational interfaces are making data collection more human.
@@ -278,14 +278,14 @@ articles:
 
   - class: uxbooth
     title: The New Rules of Form Design
-    link: http://www.uxbooth.com/articles/the-new-rules-of-form-design/
+    link: uxbooth.com/articles/the-new-rules-of-form-design/
     img_link: //logo.clearbit.com/uxbooth.com
     categories: form design
     description: Prioritize scannability, provide effortless formatting, limit typing, leverage location.
 
   - class: formassembly
     title: 7 Common Web Form Design Mistakes to Avoid
-    link: http://www.formassembly.com/blog/web-form-design/
+    link: formassembly.com/blog/web-form-design/
     img_link: formassembly.com
     categories: form design
     description: Best practices of form design. 
@@ -299,12 +299,14 @@ examples:
     description:
 
 tools: 
-  - class:
-    title: 
-    link: 
-    img_link:
+  - class: conversational-form
+    title: Conversational Form
+    link: space10-community.github.io/conversational-form/?ref=producthunt
+    img_link: '/img/conversational-form.png'
     categories: 
-    description: 
+    description: Turning web forms into conversations. By SPACE10.
+
+
 
 
 
