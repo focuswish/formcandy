@@ -1,4 +1,12 @@
 codeless: 
+  - class: paperform
+    title: paperform
+    link: paperform.com
+    categories: codeless, form builder
+    pricing: $9-$29/month
+    description: Easily create forms as beautiful as you.
+    img_link: '/images/paperform.png'
+
   - class: typeform
     title: Typeform
     link: typeform.com
@@ -226,7 +234,7 @@ validation:
   - class: parsley
     title: Parsley
     link: parsleyjs.org
-    img_link: http://placehold.it/150x150
+    img_link: /images/javascript.jpg
     categories: form validation
     pricing: free
     description: Parsley is the ultimate JavaScript form validation library. Easily validate forms from frontend.
@@ -242,23 +250,23 @@ surveys:
   - class: survicate
     title: Survicate 
     link: survicate.com
-    img_link: \\logo.clearbit.co/survicate.com
+    img_link: //logo.clearbit.co/survicate.com
     categories: surveys
     pricing: free and paid ($50/month+)
     description: The fastest way to collect feedback from customers. Leverage unobtrusive targeted website surveys to improve conversions.
 
 articles:
   - class: prototypr
-    title: The Future of Web Forms (Prototypr.io)
-    link: 'blog.prototypr.io/the-future-of-web-forms-4578485e1461#.shr1ovis5'
-    img_link: prototypr.io
+    title: Prototypr.io
+    link: 'blog.prototypr.io/the-future-of-web-forms-4578485e1461#.5pkwecufs'
+    img_link: //logo.clearbit.com/prototypr.io
     categories: form design
     description: How conversational interfaces are making data collection more human.
 
   - class: alistapart
     title: Flat UI and Forms
     link: alistapart.com/article/flat-ui-and-forms
-    img_link: //logo.clearbit.com/alistapart.com
+    img_link: /images/alistapart.jpeg
     categories: form UX
     description: This article is about two important four-letter words that start with “F” - “flat” and “form.” 
     
@@ -272,7 +280,7 @@ articles:
   - class: alistapart
     title: On Styled Form Elements
     link: alistapart.com/blog/post/on-styled-form-elements
-    img_link: //logo.clearbit.com/alistapart.com
+    img_link: /images/alistapart.jpeg
     categories: form design
     description: 
 
@@ -290,28 +298,32 @@ articles:
     categories: form design
     description: Best practices of form design. 
 
-examples:
-  - class:
-    title: 
-    link: 
-    img_link:
-    categories: 
-    description:
-
 tools: 
   - class: conversational-form
     title: Conversational Form
     link: space10-community.github.io/conversational-form/?ref=producthunt
-    img_link: '/img/conversational-form.png'
-    categories: 
+    img_link: '/images/conversational-form.png'
+    categories: tools
+    pricing: free
     description: Turning web forms into conversations. By SPACE10.
     
- - class: bttncss
-   title: bttn.css
-   link: bttn.surge.sh/
-   img_link: '/img/bttncss.png'
-   categories: buttons
-   description: Awesome buttons for awesome projects!
+  - class: bttncss
+    title: bttn.css
+    link: bttn.surge.sh/
+    img_link: '/images/bttncss.png'
+    categories: buttons
+    pricing: free
+    description: Awesome buttons for awesome projects!
+
+  - class: intercom
+    title: intercom
+    link: intercom.com
+    img_link: //logo.clearbit.com/intercom.com
+    categories: tools
+    pricing: paid
+    description: Acquire, engage, resolve, and educate customers all in one platform.
+
+examples: 
 
 
 
